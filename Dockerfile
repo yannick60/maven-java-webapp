@@ -1,15 +1,5 @@
-# Pull tomcat latest image from dockerhub 
+FROM tomcat
 
-From tomcat:latest
-
-
-
-# Maintainer
-
-MAINTAINER "AR Shankar" 
-
-
-
-# copy war file on to container 
+MAINTAINER "Mohamed Taher"
 
 COPY target/webapp.war /usr/local/tomcat/webapps
