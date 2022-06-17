@@ -1,4 +1,4 @@
-FROM tomcat
+FROM tomcat::8.5.41-jre8-alpine
 
 MAINTAINER "Mohamed Taher"
 
